@@ -1,0 +1,82 @@
+17/03/20 07:09:26 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+17/03/20 07:09:27 INFO input.FileInputFormat: Total input paths to process : 1
+17/03/20 07:09:27 INFO mapreduce.JobSubmitter: number of splits:1
+17/03/20 07:09:27 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1489991057643_0002
+17/03/20 07:09:28 INFO impl.YarnClientImpl: Submitted application application_1489991057643_0002
+17/03/20 07:09:28 INFO mapreduce.Job: The url to track the job: http://invertedindex-m:8088/proxy/application_1489991057643_0002/
+17/03/20 07:09:28 INFO mapreduce.Job: Running job: job_1489991057643_0002
+17/03/20 07:09:35 INFO mapreduce.Job: Job job_1489991057643_0002 running in uber mode : false
+17/03/20 07:09:35 INFO mapreduce.Job:  map 0% reduce 0%
+17/03/20 07:09:43 INFO mapreduce.Job:  map 100% reduce 0%
+17/03/20 07:09:53 INFO mapreduce.Job:  map 100% reduce 8%
+17/03/20 07:09:54 INFO mapreduce.Job:  map 100% reduce 17%
+17/03/20 07:10:02 INFO mapreduce.Job:  map 100% reduce 33%
+17/03/20 07:10:10 INFO mapreduce.Job:  map 100% reduce 42%
+17/03/20 07:10:12 INFO mapreduce.Job:  map 100% reduce 50%
+17/03/20 07:10:19 INFO mapreduce.Job:  map 100% reduce 58%
+17/03/20 07:10:20 INFO mapreduce.Job:  map 100% reduce 67%
+17/03/20 07:10:28 INFO mapreduce.Job:  map 100% reduce 83%
+17/03/20 07:10:35 INFO mapreduce.Job:  map 100% reduce 100%
+17/03/20 07:10:38 INFO mapreduce.Job: Job job_1489991057643_0002 completed successfully
+17/03/20 07:10:38 INFO mapreduce.Job: Counters: 55
+        File System Counters
+                FILE: Number of bytes read=1448091
+                FILE: Number of bytes written=4492799
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                GS: Number of bytes read=468273
+                GS: Number of bytes written=143947
+                GS: Number of read operations=0
+                GS: Number of large read operations=0
+                GS: Number of write operations=0
+                HDFS: Number of bytes read=137
+                HDFS: Number of bytes written=0
+                HDFS: Number of read operations=1
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=0
+        Job Counters 
+		Killed reduce tasks=1
+                Launched map tasks=1
+                Launched reduce tasks=12
+                Rack-local map tasks=1
+                Total time spent by all maps in occupied slots (ms)=25194
+                Total time spent by all reduces in occupied slots (ms)=1127172
+                Total time spent by all map tasks (ms)=4199
+                Total time spent by all reduce tasks (ms)=93931
+                Total vcore-milliseconds taken by all map tasks=4199
+                Total vcore-milliseconds taken by all reduce tasks=187862
+                Total megabyte-milliseconds taken by all map tasks=12899328
+                Total megabyte-milliseconds taken by all reduce tasks=577112064
+        Map-Reduce Framework
+                Map input records=1
+                Map output records=89500
+                Map output bytes=1269019
+                Map output materialized bytes=1448091
+                Input split bytes=137
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=7054
+                Reduce shuffle bytes=1448091
+                Reduce input records=89500
+                Reduce output records=7054
+                Spilled Records=179000
+                Shuffled Maps =12
+                Failed Shuffles=0
+                Merged Map outputs=12
+                GC time elapsed (ms)=1030
+                CPU time spent (ms)=18620
+                Physical memory (bytes) snapshot=3590057984
+                Virtual memory (bytes) snapshot=89022050304
+                Total committed heap usage (bytes)=3147300864
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters 
+                Bytes Read=468273
+        File Output Format Counters 
+                Bytes Written=143947
